@@ -1,34 +1,44 @@
 # 📚 Biblioteca Digital
-Um programa para gerenciar livros, desenvolvido como parte do Projeto Integrador II do curso de Análise e desenvolvimento de Sistemas pelo Senac-RS.
+Sistema desktop para gerenciamento de biblioteca, desenvolvido em Java como parte do Projeto Integrador II do curso de Análise e Desenvolvimento de Sistemas pelo Senac-RS.
 
 ## 🚀 Status do Projeto
-🛠️ Em desenvolvimento
+Projeto acadêmico desenvolvido com Java Swing e MySQL, e classes DAO para organizar as operações de persistência dos dados.
 
 ## 🛠️ Tecnologias Utilizadas
-- Java
-- Java Swing
-- MySQL
+- Linguagem: Java
+- Interface gráfica: Java Swing
+- Banco de dados: MySQL com JDBC
 
 ## 🎯 Objetivo do Software
-Permitir a visualização, cadastro e busca de livros e empréstimos de forma prática e organizada.
+Desenvolver um sistema desktop que facilite o gerenciamento de uma biblioteca, permitindo controlar o acervo, os usuários e as operações de empréstimo e devolução de livros.
 
-## 📝 Funcionalidades do Sistema
-*Autenticação e Permissões:*
-- Autenticar usuários (comuns e administradores) com validação de credenciais.
-- Controlar o acesso a funcionalidades com base no perfil do usuário (Comum ou Administrador).
+## 📝 Funcionalidades
+*🔐 Autenticação e controle de acesso*
+  - Autenticação de usuários;
+  - diferenciação entre usuários comuns e administradores;
+  - controle de acesso às funcionalidades conforme o perfil.
+*📖 Gerenciamento de livros*
+  - Cadastro de livros;
+  - listagem e filtragem do acervo por título, autor ou ISBN;
+  - controle da disponibilidade dos livros.
+*👥 Gerenciamento de usuários*
+  - Cadastro de usuários;
+  - definição de perfis de acesso;
+  - listagem e filtragem de usuários cadastrados.
+*🔄 Gerenciamento de empréstimos*
+  - Registro de empréstimos de livros;
+  - registro de devoluções;
+  - consulta e filtragem do histórico de empréstimos.
 
-*Gestão de Livros:*
-- Visualizar e filtrar em tempo real o acervo de livros por título, autor ou ISBN.
-- Cadastrar novos livros no sistema (funcionalidade de administrador).
+## ⚙️ Configuração e execução
+Pré-requisitos:
+- Java JDK instalado.
+- MySQL Server instalado e em execução.
+- IDE compatível com projetos Java, como NetBeans.
+- Driver JDBC do MySQL.
+Antes de executar:
+- Execute o script em biblioteca_db.
+- Configure as credenciais de acesso ao banco na classe ConexaoDB, conforme seu ambiente local.
 
-*Gestão de Usuários:*
-- Visualizar e filtrar em tempo real a lista de usuários cadastrados (funcionalidade de administrador).
-- Cadastrar novos usuários no sistema, definindo seus perfis de acesso (funcionalidade de administrador).
-
-*Gestão de Empréstimos:*
-- Registrar o empréstimo de um livro disponível para o usuário logado.
-- Registrar a devolução de um livro emprestado (funcionalidade de administrador).
-- Visualizar e filtrar o histórico completo de empréstimos.
-
-## 👨‍💻 Time de Desenvolvedores
+## 👨‍💻 Autor
 - Guilherme de Carvalho Gois
