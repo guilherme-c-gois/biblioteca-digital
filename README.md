@@ -17,14 +17,17 @@ Desenvolver um sistema desktop que facilite o gerenciamento de uma biblioteca, p
   - Autenticação de usuários;
   - diferenciação entre usuários comuns e administradores;
   - controle de acesso às funcionalidades conforme o perfil.
+
 *📖 Gerenciamento de livros*
   - Cadastro de livros;
   - listagem e filtragem do acervo por título, autor ou ISBN;
   - controle da disponibilidade dos livros.
+
 *👥 Gerenciamento de usuários*
   - Cadastro de usuários;
   - definição de perfis de acesso;
   - listagem e filtragem de usuários cadastrados.
+
 *🔄 Gerenciamento de empréstimos*
   - Registro de empréstimos de livros;
   - registro de devoluções;
@@ -36,6 +39,7 @@ Pré-requisitos:
 - MySQL Server instalado e em execução.
 - IDE compatível com projetos Java, como NetBeans.
 - Driver JDBC do MySQL.
+
 Antes de executar:
 - Execute o script em biblioteca_db.
 - Configure as credenciais de acesso ao banco na classe ConexaoDB, conforme seu ambiente local.
