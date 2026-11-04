@@ -1,8 +1,5 @@
 # 📚 Biblioteca Digital
-Sistema desktop para gerenciamento de biblioteca, desenvolvido em Java como parte do Projeto Integrador II do curso de Análise e Desenvolvimento de Sistemas pelo Senac-RS.
-
-## 🚀 Status do Projeto
-Projeto acadêmico desenvolvido com Java Swing e MySQL, e classes DAO para organizar as operações de persistência dos dados.
+Projeto acadêmico de sistema desktop para gerenciamento de biblioteca, parte do Projeto Integrador II do curso de Análise e Desenvolvimento de Sistemas pelo Senac-RS. Desenvolvido com Java, Java Swing e MySQL, e classes DAO para organizar as operações de persistência dos dados.
 
 ## 🛠️ Tecnologias Utilizadas
 - Linguagem: Java
