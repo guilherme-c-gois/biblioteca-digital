@@ -38,7 +38,7 @@ Pré-requisitos:
 - Driver JDBC do MySQL.
 
 Antes de executar:
-- Execute o script em biblioteca_db.
+- Execute o script em biblioteca_db.sql.
 - Configure as credenciais de acesso ao banco na classe ConexaoDB, conforme seu ambiente local.
 
 O usuário padrão é o de nome "admin", e-mail "admin@biblioteca.local" e senha "admin123".
