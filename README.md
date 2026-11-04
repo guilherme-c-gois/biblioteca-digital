@@ -41,5 +41,7 @@ Antes de executar:
 - Execute o script em biblioteca_db.
 - Configure as credenciais de acesso ao banco na classe ConexaoDB, conforme seu ambiente local.
 
+O usuário padrão é o de nome "admin", e-mail "admin@biblioteca.local" e senha "admin123".
+
 ## 👨‍💻 Autor
 - Guilherme de Carvalho Gois
